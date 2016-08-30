@@ -3,7 +3,7 @@
 
 
 
-
+```java
 cardPager.setItemPadding(padding);
 adapter = new MyAdapter();
 cardPager.setAdapter(adapter);
@@ -14,3 +14,4 @@ class MyAdapter extends CardViewPager.CardAdapter {
     return .8f;
   }
 }
+```
